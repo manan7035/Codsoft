@@ -1,0 +1,151 @@
+.contact {
+    color: black;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 30px;
+}
+
+.contact a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: green;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+}
+
+.name {
+    color: white;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 158px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    color: black;
+}
+
+.main-image {
+    margin-top: 25px;
+    width: 100%;
+    height: 500px;
+    filter: blur(0.9px);
+}
+
+.heading {
+    line-height: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 18px 18px 18px rgba(94, 255, 19, 0.5);
+    color: rgb(52, 91, 4);
+}
+
+.heading button {
+    width: 135px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.mid h1 {
+    color: rgb(69, 65, 65);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.8em;
+    display: flex;
+    justify-content: center;
+}
+
+.mid h3 {
+    line-height: 0.8em;
+    color: rgb(61, 116, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.con {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.first,
+.second,
+.third {
+    border: 3px solid rgb(34, 108, 34);
+    width: 28%;
+    height: 310px;
+    border-radius: 9px;
+
+}
+
+.first img,
+.second img,
+.third img {
+    margin-top: 1px;
+    width: 406px;
+}
+
+.first p,
+.second p,
+.third p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+.first h2,
+.second h2,
+.third h2{
+    line-height: 0.4em;
+    text-align: center;
+}
+
+.copy{
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    background-color:beige;
+    border-radius: 10px;
+}
